@@ -22,10 +22,11 @@ body{
   font-size: 1.6rem;
 }
 header {
-  background-color: #7159c1;
+  background-color: #483bf7;
 }
 
 header .container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,11 +36,15 @@ header .container {
 }
 
 header img {
-  width: 150px;
+  width: 100px;
   margin-left: 20px;
   padding: 15px 0;
 }
 header a{
+  float: right;
+  display: inline-fle
+  width: 20px;
+  height: 20px;
   
 }
 
