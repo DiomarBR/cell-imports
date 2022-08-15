@@ -52,6 +52,7 @@ header img.icone {
   padding: 15px 0;
 }
 header img.links{
+  padding: 5px;
   position: absolute;
   top: 10px;
   width: 40px;
@@ -71,7 +72,6 @@ section.hero .container {
   width:90%;
   max-width: 980px;
   margin: auto;
-
   display: flex;
 }
 
@@ -113,7 +113,7 @@ CARDS
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #483bf7;
+  background-color: #1100ff94;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 
@@ -163,7 +163,10 @@ CARDS
 
 @media (max-width: 630px){
   header{
-    width: 100%;
+    width: 100vw;
+  }
+  h2{
+    font-size: 2rem;
   }
   .hero .container{
     flex-direction: column;
@@ -180,10 +183,22 @@ CARDS
   nav{
     display: none;
   }
-  
+  header h2{
+    left: 20vw;
+  }
+  header img.instagram{
+    right: 10vh;
+  }
+  header img.whatsapp{
+    right: 2vw;
+  }
+
 }
 @media (max-width:320px){
   #form h3{
     font-size: 2rem;
+  }
+  h2{
+    font-size: 0;
   }
 }
