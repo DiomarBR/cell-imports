@@ -218,6 +218,6 @@ CARDS
     font-size: 2rem;
   }
   h2{
-    font-size: 0;
+    display: none;
   }
 }
