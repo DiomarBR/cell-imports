@@ -217,7 +217,7 @@ CARDS
   #form h3{
     font-size: 2rem;
   }
-  h2{
+  header div h2{
     display: none;
   }
 }
