@@ -206,7 +206,7 @@ CARDS
   }
 
 }
-@media (max-width:320px){
+@media (max-width:370px){
   .hero .container{
     flex-direction: column;
     text-align: center;
