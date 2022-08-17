@@ -8,7 +8,7 @@
 }
 
 html{
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
 }
 
@@ -38,6 +38,7 @@ header .container {
   margin: auto;
 }
 header div h2{
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   color: rgb(230, 230, 24);
   top: 15px;
@@ -111,6 +112,7 @@ CARDS
 }
 
 .text--medium {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.7rem;
   line-height: 2.6rem;
   font-weight: 400;
@@ -174,6 +176,9 @@ CARDS
   header{
     width: 100vw;
   }
+  header img.icone{
+    margin-left: 5px;
+  }
   h2{
     font-size: 2rem;
   }
@@ -195,8 +200,13 @@ CARDS
   nav{
     display: none;
   }
+  header div.container{
+    width: 100%;
+  }
   header div h2{
     left: 30%;
+    font-size: 1.6rem;
+    top: 40%;
   }
   header img.instagram{
     right: 10vh;
@@ -206,7 +216,12 @@ CARDS
   }
 
 }
-@media (max-width:370px){
+@media (max-width:440px){
+  header img.instagram{
+    right: 45px;
+  }
+}
+@media (max-width:390px){
   .hero .container{
     flex-direction: column;
     text-align: center;
@@ -218,6 +233,8 @@ CARDS
     font-size: 2rem;
   }
   header div h2{
-    display: none;
+    font-size: 1.3rem;
+    top: 40%;
+    left: 29%;
   }
 }
