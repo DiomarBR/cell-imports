@@ -8,14 +8,14 @@ const videos = [
     title: "Formulário Animado com JS puro e CSS Animation | Mayk Brito",
     duration: "57 min",
     thumb: "images/imagem 1.png",
-    preço:"10",
+    preço:"R$:1000,00",
     imagens:""
   },
   {
     title: "Desvendando o CSS Grid na prática | Mayk Brito",
     duration: "36 min",
     thumb: "images/imagem 2.png",
-    preço:"10"
+    preço:"R$:300,00"
   },
   {
     title: "Array: Higher Order Functions | Mayk Brito",
