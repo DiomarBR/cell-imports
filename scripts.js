@@ -5,63 +5,96 @@ const card = document.querySelector("div.card");
 
 const videos = [
   {
-    title: "Formulário Animado com JS puro e CSS Animation | Mayk Brito",
-    duration: "57 min",
-    thumb: "images/imagem 1.png",
-    preço:"R$:1000,00",
-    imagens:""
+    title: "Iphone 7-PLus",
+    thumb: "images/products/iphone-7-plus.png",
+    preço:"R$:1000,00 - R$:2000,00",
   },
   {
-    title: "Desvendando o CSS Grid na prática | Mayk Brito",
-    duration: "36 min",
-    thumb: "images/imagem 2.png",
-    preço:"R$:300,00"
+    title: "Iphone 8-Plus",
+    thumb: "images/products/iphone-8-plus.png",
+    preço:"R$:1000,00 - R$:2000,00",
   },
   {
-    title: "Array: Higher Order Functions | Mayk Brito",
-    duration: "54 min",
-    thumb: "images/imagem 3.png",
+    title: "Iphone X",
+    thumb: "images/products/iphone-x.png",
+    preço:"R$:1000,00 - R$:2000,00",
   },
   {
-    title: "O que é API? REST e RESTful? | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 4.png",
+    title: "Iphone XR",
+    thumb: "images/products/iphone-xr.png",
+    preço:"R$:1500,00 - R$:3000,00",
   },
   {
-    title: "Desvendando a variável this no Javascript | Mayk Brito",
-    duration: "48 min",
-    thumb: "images/imagem 5.png",
+    title: "Iphone XS",
+    thumb: "images/products/iphone-xs.png",
+    preço:"R$:1000,00 - R$:2000,00",
   },
   {
-    title:
-      "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 6.png",
+    title: "Iphone 11",
+    thumb: "images/products/iphone-11.png",
+    preço:"R$:2000,00 - R$:3500,00",
   },
   {
-    title:
-      "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 7.png",
+    title: "Iphone 11 Pro",
+    thumb: "images/products/iphone-11-pro.png",
+    preço:"R$:3000,00 - R$:4000,00",
   },
   {
-    title:
-      "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 8.png",
+    title: "Iphone 11 Pro-max",
+    thumb: "images/products/iphone-11-pro-max.png",
+    preço:"R$:4000,00 - R$:5000,00",
   },
   {
-    title:
-      "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 9.png",
+    title: "Iphone 12",
+    thumb: "images/products/iphone-12.png",
+    preço:"R$:4000,00 - R$:6000,00",
   },
   {
-    title:
-      "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito",
-    duration: "33 min",
-    thumb: "images/imagem 10.png",
+    title: "Iphone 12 Mini",
+    thumb: "images/products/iphone-12-mini.png",
+    preço:"R$:4000,00 - R$:5000,00",
   },
+  {
+    title: "Iphone 12 Pro-max",
+    thumb: "images/products/iphone-12-pro-max.png",
+    preço:"R$:4000,00 - R$:5000,00",
+  },
+  {
+    title: "Iphone 13",
+    thumb: "images/products/iphone-13.png",
+    preço:"R$:4000,00 - R$:5000,00",
+  },
+  {
+    title: "Iphone 13 Mini",
+    thumb: "images/products/iphone-13-mini.png",
+    preço:"R$:4500,00 - R$:5000,00",
+  },
+  {
+    title: "Iphone 13 Pro",
+    thumb: "images/products/iphone-13-pro.png",
+    preço:"R$:4500 - R$:6000,00",
+  },
+  {
+    title: "Iphone 13-Pro-Max",
+    thumb: "images/products/iphone-13-pro-max.png",
+    preço:"R$:5500,00 - R$:6500,00",
+  },
+  {
+    title: "Iphone 14",
+    thumb: "images/products/iphone-14.png",
+    preço:"R$:6800,00 - R$:7500,00",
+  },
+  {
+    title: "Iphone 14-Pro",
+    thumb: "images/products/iphone-14-pro.png",
+    preço:"R$:7500,00 - R$:8000,00",
+  },
+  {
+    title: "Iphone 14-Pro-Max",
+    thumb: "images/products/iphone-14-pro-max.png",
+    preço:"R$:8500,00 - R$:10000,00",
+  },
+  
 ];
 
 videos.map(video => {
